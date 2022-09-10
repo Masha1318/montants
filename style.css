@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  max-width: 1920px;
+  color: white;
+  
+}
+@font-face {
+  font-family: 'AngleciaProDisplay-Regular'; 
+	src: local('AngleciaProDisplay-Regular'), url(ANGLECIA/OT-Fonts/AngleciaProDisplay-Regular.otf);
+}
+@font-face {
+  font-family: 'Gilroy-Bold'; 
+	src: local('Gilroy-Bold'), url(Gilroy-Bold.ttf);
+}
+body {
+  width: 1920px;
+  margin: auto;
+  background-color: #0B1D26;
+}
+.top-gradient {
+  z-index: -1;
+  position: absolute;
+width: 1920px;
+height: 1200px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+}
+.background-1 {
+  z-index: -2;
+  position: absolute;
+width: 1920px;
+height: 1513px;
+left: 0px;
+top: -400px;
+}
+
+.background-2 {
+  z-index: -1;
+  position: absolute;
+width: 1920px;
+height: 1422px;
+left: 0px;
+top: 464px;
+}
+
+.background-3 {
+  z-index: -1;
+  position: absolute;
+width: 1920px;
+height: 926px;
+left: 0px;
+top: 768px;
+}
+.bottom-gradient {
+  z-index: -1;
+  position: absolute;
+width: 1920px;
+height: 700px;
+left: 0px;
+top: 1200px;
+
+background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 1760px;
+  height: 25px;
+  margin: 64px 80px;
+}
+.logo {
+  font-family: 'AngleciaProDisplay-Regular';
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+  width: 108px;
+  height: 30px;
+  margin-top: -8px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav ul li a {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none; 
+  }
+.account {
+  display: flex;
+  align-items: center;
+  
+}
+.account img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.account p {
+  font-family: 'Gilroy-Bold';
+font-size: 17px;
+line-height: 21px;
+width: 66px;
+height: 21px;
+}
+.h1 {
+  margin-top: 200px;
+  margin-left: 500px;
+  width: 950px;
+}
+.between {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.preview {
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 6px;
+text-transform: uppercase;
+color: #FBD784;
+margin-left: 32px;
+}
+h1 {
+  font-family: 'AngleciaProDisplay-Regular';
+font-style: normal;
+font-weight: 600;
+font-size: 88px;
+line-height: 100px;
+margin-bottom: 900px;
+text-transform: capitalize;
+}
+main {
+  display: flex;
+flex-direction: column;
+
+padding: 0px;
+gap: 200px;
+width: 1462px;
+height: 3040px;
+margin-left: 229px;
+
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.num {
+  position: absolute;
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 240px;
+line-height: 240px;
+color: #FFFFFF;
+opacity: 0.1;
+}
+.cart {
+  width: 632px;
+  height: 439px;
+  margin: 140px 114px 140px 150px;
+}
+.num-2 {
+  position: absolute;
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 240px;
+line-height: 240px;
+color: #FFFFFF;
+opacity: 0.1;
+margin-left: 680px;
+}
+.cart-2 {
+  width: 632px;
+  height: 439px;
+  margin: 140px 0 140px 150px;
+}
+h2 {
+  font-family: 'AngleciaProDisplay-Regular';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+margin-top: 27px;
+margin-bottom: 27px;
+}
+.text {
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+margin-bottom: 27px;
+} 
+.footer {
+  font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+margin-right: 16px;
+color: #FBD784;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.colomn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+.analog {
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+margin-top: 27px;
+margin-bottom: 105px;
+width: 303px;
+}
+.signature {
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #FBD784;
+width: 200px;
+margin-left: 200px;
+margin-bottom: 8px;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+}
+.more li {
+  font-family: 'Gilroy-Bold';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+margin-left: 200px;
+margin-top: 16px;
+}
